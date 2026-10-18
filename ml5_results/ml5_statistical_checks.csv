@@ -1,8 +1,0 @@
-analysis,target_epsilon,n_pairs,pr_auc_mean_difference,p_value,rho
-FedProx-FedAvg paired run labels,1.0,3,-0.00017526861199662624,0.897752343761247,
-FedProx-FedAvg paired run labels,3.0,3,0.0003539331908439432,0.052626406963674016,
-FedProx-FedAvg paired run labels,5.0,3,-7.465420865948591e-05,0.4168062004064118,
-FedProx-FedAvg paired run labels,8.0,3,-1.7259231809544733e-05,0.8894915717231744,
-Centralized Spearman epsilon/mean PR-AUC,,4,,0.0,1.0
-FedAvg Spearman epsilon/mean PR-AUC,,4,,0.6000000000000001,-0.39999999999999997
-FedProx Spearman epsilon/mean PR-AUC,,4,,0.2000000000000001,-0.7999999999999999
