@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "numeric_fields_checked": 124,
+  "sections_with_results": 5,
+  "notebook_code_cells": 9,
+  "embedded_plots": 2,
+  "source": "saved ML5 summary/statistics/ledger; no training rerun",
+  "report_script_sha256": "8753f431640108e0dba3fc27c8bdd06d4f1823f6b3cb6d20e41acc2cd6dd5f06"
+}

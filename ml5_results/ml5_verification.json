@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "mechanism_tests": 9,
+  "experiment_runs": 54,
+  "summary_rows": 18,
+  "ledger_rows": 1818,
+  "dp_ledger_rows": 1212,
+  "recomputed_test_scores": 54,
+  "checks": [
+    "user gradients versus autograd",
+    "all sessions retained per visitor",
+    "joint weight/bias clipping",
+    "Poisson distribution and empty batches",
+    "expected batch denominator",
+    "noise scale",
+    "proximal post-noise update",
+    "persistent round accountant",
+    "absent user fixed roster slot",
+    "privacy ledger recomputed",
+    "saved models reproduce all test metrics",
+    "means and sample std reconciled",
+    "nonblank plots"
+  ],
+  "figures": [
+    {
+      "file": "ml5_privacy_utility.png",
+      "size": [
+        2160,
+        864
+      ],
+      "nonblank": true
+    },
+    {
+      "file": "ml5_noise_comparison.png",
+      "size": [
+        2340,
+        846
+      ],
+      "nonblank": true
+    }
+  ],
+  "sha256": {
+    "ml4_train.csv.gz": "371d35acf478fbea73c01aad51a2476019aad7b78b975a2e40b36f03bec2504b",
+    "ml4_val.csv.gz": "5859ff06eff52bdcd583434a379a517db9e69d14ca0029875ae88466636f2d42",
+    "ml4_test.csv.gz": "dac97f94810273acbc875eaadd79726d131d54f73005504df5f767dcb9e8a678",
+    "run_ml5_privacy.py": "5e16ee2b5d351591a2303c159984798d9f2f6573449aa9fedbb4974724530ae6",
+    "test_ml5_privacy.py": "bb55a029b2dc761d56fe148fd0f4469d7b28b4703a5545ef5cc80b2730090060",
+    "requirements_ml5.txt": "73c434319f4cb229e47fdaa3bb8ac79af03e423c369ac05884aeb0911ca4e970"
+  },
+  "limit": "Engineering checks only; NOT a cryptographic or end-to-end DP certification."
+}

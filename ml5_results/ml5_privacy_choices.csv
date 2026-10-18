@@ -1,0 +1,4 @@
+algorithm,criterion,minimum_retention_pct,status,target_epsilon,epsilon,noise_multiplier,validation_retention_pct
+Centralized,validation PR-AUC retention,95.0,eligible,1.0,0.9954646543537398,1.1767578125,99.85873152990708
+FedAvg,validation PR-AUC retention,95.0,eligible,1.0,0.957023373544244,4.16015625,100.11949436930553
+FedProx,validation PR-AUC retention,95.0,eligible,1.0,0.957023373544244,4.16015625,100.12165402059954
