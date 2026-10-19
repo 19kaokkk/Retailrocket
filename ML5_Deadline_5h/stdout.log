@@ -1,0 +1,219 @@
+SUBSET ONLY | train=500 | eval=469 | clients=10
+NOT full. NOT end-to-end DP. No unchanged original full results are reused.
+Centralized no_dp replicate=1 round=1/3 epsilon_bound=None (4.4s)
+Centralized no_dp replicate=1 round=2/3 epsilon_bound=None (1.3s)
+Centralized no_dp replicate=1 round=3/3 epsilon_bound=None (1.5s)
+PROGRESS 1/54 | elapsed=0.1 min
+FedAvg no_dp replicate=1 round=1/3 epsilon_bound=None (4.2s)
+FedAvg no_dp replicate=1 round=2/3 epsilon_bound=None (3.4s)
+FedAvg no_dp replicate=1 round=3/3 epsilon_bound=None (3.1s)
+PROGRESS 2/54 | elapsed=0.3 min
+FedProx no_dp replicate=1 round=1/3 epsilon_bound=None (2.8s)
+FedProx no_dp replicate=1 round=2/3 epsilon_bound=None (2.9s)
+FedProx no_dp replicate=1 round=3/3 epsilon_bound=None (2.8s)
+PROGRESS 3/54 | elapsed=0.5 min
+Centralized clip_only replicate=1 round=1/3 epsilon_bound=None (38.7s)
+Centralized clip_only replicate=1 round=2/3 epsilon_bound=None (38.3s)
+Centralized clip_only replicate=1 round=3/3 epsilon_bound=None (39.7s)
+PROGRESS 4/54 | elapsed=2.4 min
+FedAvg clip_only replicate=1 round=1/3 epsilon_bound=None (38.1s)
+FedAvg clip_only replicate=1 round=2/3 epsilon_bound=None (40.3s)
+FedAvg clip_only replicate=1 round=3/3 epsilon_bound=None (37.1s)
+PROGRESS 5/54 | elapsed=4.4 min
+FedProx clip_only replicate=1 round=1/3 epsilon_bound=None (41.9s)
+FedProx clip_only replicate=1 round=2/3 epsilon_bound=None (38.9s)
+FedProx clip_only replicate=1 round=3/3 epsilon_bound=None (37.7s)
+PROGRESS 6/54 | elapsed=6.4 min
+Centralized epsilon_1 replicate=1 round=1/3 epsilon_bound=0.6254317103718476 (44.6s)
+Centralized epsilon_1 replicate=1 round=2/3 epsilon_bound=0.8316117503028556 (40.2s)
+Centralized epsilon_1 replicate=1 round=3/3 epsilon_bound=0.9951657719813742 (42.6s)
+PROGRESS 7/54 | elapsed=8.5 min
+FedAvg epsilon_1 replicate=1 round=1/3 epsilon_bound=0.6057853752999177 (46.9s)
+FedAvg epsilon_1 replicate=1 round=2/3 epsilon_bound=0.8257844803678944 (43.3s)
+FedAvg epsilon_1 replicate=1 round=3/3 epsilon_bound=0.9974232919911203 (45.9s)
+PROGRESS 8/54 | elapsed=10.8 min
+FedProx epsilon_1 replicate=1 round=1/3 epsilon_bound=0.6057853752999177 (53.0s)
+FedProx epsilon_1 replicate=1 round=2/3 epsilon_bound=0.8257844803678944 (51.5s)
+FedProx epsilon_1 replicate=1 round=3/3 epsilon_bound=0.9974232919911203 (47.2s)
+PROGRESS 9/54 | elapsed=13.4 min
+Centralized epsilon_3 replicate=1 round=1/3 epsilon_bound=2.2167994082745937 (41.8s)
+Centralized epsilon_3 replicate=1 round=2/3 epsilon_bound=2.642820011827072 (42.9s)
+Centralized epsilon_3 replicate=1 round=3/3 epsilon_bound=2.9962870317242856 (38.5s)
+PROGRESS 10/54 | elapsed=15.5 min
+FedAvg epsilon_3 replicate=1 round=1/3 epsilon_bound=1.9774297664801939 (45.5s)
+FedAvg epsilon_3 replicate=1 round=2/3 epsilon_bound=2.548130637029248 (50.9s)
+FedAvg epsilon_3 replicate=1 round=3/3 epsilon_bound=2.9968741947707587 (39.4s)
+PROGRESS 11/54 | elapsed=17.8 min
+FedProx epsilon_3 replicate=1 round=1/3 epsilon_bound=1.9774297664801939 (43.8s)
+FedProx epsilon_3 replicate=1 round=2/3 epsilon_bound=2.548130637029248 (55.1s)
+FedProx epsilon_3 replicate=1 round=3/3 epsilon_bound=2.9968741947707587 (48.0s)
+PROGRESS 12/54 | elapsed=20.3 min
+Centralized epsilon_5 replicate=1 round=1/3 epsilon_bound=3.7915449795892284 (44.5s)
+Centralized epsilon_5 replicate=1 round=2/3 epsilon_bound=4.460237205678437 (45.4s)
+Centralized epsilon_5 replicate=1 round=3/3 epsilon_bound=4.995377748767046 (43.7s)
+PROGRESS 13/54 | elapsed=22.6 min
+FedAvg epsilon_5 replicate=1 round=1/3 epsilon_bound=3.393684074486089 (47.0s)
+FedAvg epsilon_5 replicate=1 round=2/3 epsilon_bound=4.296767531151197 (47.1s)
+FedAvg epsilon_5 replicate=1 round=3/3 epsilon_bound=4.9998339396837626 (46.1s)
+PROGRESS 14/54 | elapsed=25.0 min
+FedProx epsilon_5 replicate=1 round=1/3 epsilon_bound=3.393684074486089 (42.2s)
+FedProx epsilon_5 replicate=1 round=2/3 epsilon_bound=4.296767531151197 (39.8s)
+FedProx epsilon_5 replicate=1 round=3/3 epsilon_bound=4.9998339396837626 (43.3s)
+PROGRESS 15/54 | elapsed=27.1 min
+Centralized epsilon_8 replicate=1 round=1/3 epsilon_bound=6.072571759603946 (43.6s)
+Centralized epsilon_8 replicate=1 round=2/3 epsilon_bound=7.15530101550086 (45.4s)
+Centralized epsilon_8 replicate=1 round=3/3 epsilon_bound=7.996772258687595 (46.9s)
+PROGRESS 16/54 | elapsed=29.4 min
+FedAvg epsilon_8 replicate=1 round=1/3 epsilon_bound=5.473353694889178 (43.8s)
+FedAvg epsilon_8 replicate=1 round=2/3 epsilon_bound=6.901337178700772 (48.0s)
+FedAvg epsilon_8 replicate=1 round=3/3 epsilon_bound=7.99664534407716 (47.7s)
+PROGRESS 17/54 | elapsed=31.9 min
+FedProx epsilon_8 replicate=1 round=1/3 epsilon_bound=5.473353694889178 (44.3s)
+FedProx epsilon_8 replicate=1 round=2/3 epsilon_bound=6.901337178700772 (43.5s)
+FedProx epsilon_8 replicate=1 round=3/3 epsilon_bound=7.99664534407716 (43.7s)
+PROGRESS 18/54 | elapsed=34.2 min
+Centralized no_dp replicate=2 round=1/3 epsilon_bound=None (1.4s)
+Centralized no_dp replicate=2 round=2/3 epsilon_bound=None (1.5s)
+Centralized no_dp replicate=2 round=3/3 epsilon_bound=None (1.3s)
+PROGRESS 19/54 | elapsed=34.3 min
+FedAvg no_dp replicate=2 round=1/3 epsilon_bound=None (2.9s)
+FedAvg no_dp replicate=2 round=2/3 epsilon_bound=None (2.8s)
+FedAvg no_dp replicate=2 round=3/3 epsilon_bound=None (2.5s)
+PROGRESS 20/54 | elapsed=34.5 min
+FedProx no_dp replicate=2 round=1/3 epsilon_bound=None (2.9s)
+FedProx no_dp replicate=2 round=2/3 epsilon_bound=None (3.1s)
+FedProx no_dp replicate=2 round=3/3 epsilon_bound=None (3.0s)
+PROGRESS 21/54 | elapsed=34.7 min
+Centralized clip_only replicate=2 round=1/3 epsilon_bound=None (36.6s)
+Centralized clip_only replicate=2 round=2/3 epsilon_bound=None (37.2s)
+Centralized clip_only replicate=2 round=3/3 epsilon_bound=None (46.2s)
+PROGRESS 22/54 | elapsed=36.7 min
+FedAvg clip_only replicate=2 round=1/3 epsilon_bound=None (37.9s)
+FedAvg clip_only replicate=2 round=2/3 epsilon_bound=None (41.5s)
+FedAvg clip_only replicate=2 round=3/3 epsilon_bound=None (37.8s)
+PROGRESS 23/54 | elapsed=38.7 min
+FedProx clip_only replicate=2 round=1/3 epsilon_bound=None (38.9s)
+FedProx clip_only replicate=2 round=2/3 epsilon_bound=None (41.6s)
+FedProx clip_only replicate=2 round=3/3 epsilon_bound=None (36.8s)
+PROGRESS 24/54 | elapsed=40.6 min
+Centralized epsilon_1 replicate=2 round=1/3 epsilon_bound=0.6254317103718476 (40.7s)
+Centralized epsilon_1 replicate=2 round=2/3 epsilon_bound=0.8316117503028556 (43.8s)
+Centralized epsilon_1 replicate=2 round=3/3 epsilon_bound=0.9951657719813742 (40.1s)
+PROGRESS 25/54 | elapsed=42.8 min
+FedAvg epsilon_1 replicate=2 round=1/3 epsilon_bound=0.6057853752999177 (42.2s)
+FedAvg epsilon_1 replicate=2 round=2/3 epsilon_bound=0.8257844803678944 (38.2s)
+FedAvg epsilon_1 replicate=2 round=3/3 epsilon_bound=0.9974232919911203 (43.7s)
+PROGRESS 26/54 | elapsed=44.9 min
+FedProx epsilon_1 replicate=2 round=1/3 epsilon_bound=0.6057853752999177 (43.4s)
+FedProx epsilon_1 replicate=2 round=2/3 epsilon_bound=0.8257844803678944 (43.8s)
+FedProx epsilon_1 replicate=2 round=3/3 epsilon_bound=0.9974232919911203 (47.1s)
+PROGRESS 27/54 | elapsed=47.2 min
+Centralized epsilon_3 replicate=2 round=1/3 epsilon_bound=2.2167994082745937 (42.8s)
+Centralized epsilon_3 replicate=2 round=2/3 epsilon_bound=2.642820011827072 (43.0s)
+Centralized epsilon_3 replicate=2 round=3/3 epsilon_bound=2.9962870317242856 (41.9s)
+PROGRESS 28/54 | elapsed=49.4 min
+FedAvg epsilon_3 replicate=2 round=1/3 epsilon_bound=1.9774297664801939 (42.7s)
+FedAvg epsilon_3 replicate=2 round=2/3 epsilon_bound=2.548130637029248 (47.6s)
+FedAvg epsilon_3 replicate=2 round=3/3 epsilon_bound=2.9968741947707587 (45.8s)
+PROGRESS 29/54 | elapsed=51.7 min
+FedProx epsilon_3 replicate=2 round=1/3 epsilon_bound=1.9774297664801939 (44.4s)
+FedProx epsilon_3 replicate=2 round=2/3 epsilon_bound=2.548130637029248 (41.9s)
+FedProx epsilon_3 replicate=2 round=3/3 epsilon_bound=2.9968741947707587 (43.2s)
+PROGRESS 30/54 | elapsed=53.9 min
+Centralized epsilon_5 replicate=2 round=1/3 epsilon_bound=3.7915449795892284 (39.6s)
+Centralized epsilon_5 replicate=2 round=2/3 epsilon_bound=4.460237205678437 (42.8s)
+Centralized epsilon_5 replicate=2 round=3/3 epsilon_bound=4.995377748767046 (42.8s)
+PROGRESS 31/54 | elapsed=56.0 min
+FedAvg epsilon_5 replicate=2 round=1/3 epsilon_bound=3.393684074486089 (45.5s)
+FedAvg epsilon_5 replicate=2 round=2/3 epsilon_bound=4.296767531151197 (46.0s)
+FedAvg epsilon_5 replicate=2 round=3/3 epsilon_bound=4.9998339396837626 (43.7s)
+PROGRESS 32/54 | elapsed=58.3 min
+FedProx epsilon_5 replicate=2 round=1/3 epsilon_bound=3.393684074486089 (47.8s)
+FedProx epsilon_5 replicate=2 round=2/3 epsilon_bound=4.296767531151197 (49.0s)
+FedProx epsilon_5 replicate=2 round=3/3 epsilon_bound=4.9998339396837626 (42.2s)
+PROGRESS 33/54 | elapsed=60.7 min
+Centralized epsilon_8 replicate=2 round=1/3 epsilon_bound=6.072571759603946 (44.3s)
+Centralized epsilon_8 replicate=2 round=2/3 epsilon_bound=7.15530101550086 (42.4s)
+Centralized epsilon_8 replicate=2 round=3/3 epsilon_bound=7.996772258687595 (35.6s)
+PROGRESS 34/54 | elapsed=62.8 min
+FedAvg epsilon_8 replicate=2 round=1/3 epsilon_bound=5.473353694889178 (45.2s)
+FedAvg epsilon_8 replicate=2 round=2/3 epsilon_bound=6.901337178700772 (43.1s)
+FedAvg epsilon_8 replicate=2 round=3/3 epsilon_bound=7.99664534407716 (41.0s)
+PROGRESS 35/54 | elapsed=65.0 min
+FedProx epsilon_8 replicate=2 round=1/3 epsilon_bound=5.473353694889178 (44.3s)
+FedProx epsilon_8 replicate=2 round=2/3 epsilon_bound=6.901337178700772 (44.6s)
+FedProx epsilon_8 replicate=2 round=3/3 epsilon_bound=7.99664534407716 (43.8s)
+PROGRESS 36/54 | elapsed=67.3 min
+Centralized no_dp replicate=3 round=1/3 epsilon_bound=None (1.4s)
+Centralized no_dp replicate=3 round=2/3 epsilon_bound=None (1.5s)
+Centralized no_dp replicate=3 round=3/3 epsilon_bound=None (1.3s)
+PROGRESS 37/54 | elapsed=67.4 min
+FedAvg no_dp replicate=3 round=1/3 epsilon_bound=None (3.0s)
+FedAvg no_dp replicate=3 round=2/3 epsilon_bound=None (2.7s)
+FedAvg no_dp replicate=3 round=3/3 epsilon_bound=None (2.5s)
+PROGRESS 38/54 | elapsed=67.6 min
+FedProx no_dp replicate=3 round=1/3 epsilon_bound=None (3.0s)
+FedProx no_dp replicate=3 round=2/3 epsilon_bound=None (2.8s)
+FedProx no_dp replicate=3 round=3/3 epsilon_bound=None (3.1s)
+PROGRESS 39/54 | elapsed=67.7 min
+Centralized clip_only replicate=3 round=1/3 epsilon_bound=None (36.5s)
+Centralized clip_only replicate=3 round=2/3 epsilon_bound=None (36.3s)
+Centralized clip_only replicate=3 round=3/3 epsilon_bound=None (37.9s)
+PROGRESS 40/54 | elapsed=69.6 min
+FedAvg clip_only replicate=3 round=1/3 epsilon_bound=None (38.9s)
+FedAvg clip_only replicate=3 round=2/3 epsilon_bound=None (39.2s)
+FedAvg clip_only replicate=3 round=3/3 epsilon_bound=None (41.2s)
+PROGRESS 41/54 | elapsed=71.6 min
+FedProx clip_only replicate=3 round=1/3 epsilon_bound=None (49.2s)
+FedProx clip_only replicate=3 round=2/3 epsilon_bound=None (42.7s)
+FedProx clip_only replicate=3 round=3/3 epsilon_bound=None (39.8s)
+PROGRESS 42/54 | elapsed=73.8 min
+Centralized epsilon_1 replicate=3 round=1/3 epsilon_bound=0.6254317103718476 (40.5s)
+Centralized epsilon_1 replicate=3 round=2/3 epsilon_bound=0.8316117503028556 (37.2s)
+Centralized epsilon_1 replicate=3 round=3/3 epsilon_bound=0.9951657719813742 (38.1s)
+PROGRESS 43/54 | elapsed=75.8 min
+FedAvg epsilon_1 replicate=3 round=1/3 epsilon_bound=0.6057853752999177 (44.1s)
+FedAvg epsilon_1 replicate=3 round=2/3 epsilon_bound=0.8257844803678944 (44.7s)
+FedAvg epsilon_1 replicate=3 round=3/3 epsilon_bound=0.9974232919911203 (44.5s)
+PROGRESS 44/54 | elapsed=78.1 min
+FedProx epsilon_1 replicate=3 round=1/3 epsilon_bound=0.6057853752999177 (40.8s)
+FedProx epsilon_1 replicate=3 round=2/3 epsilon_bound=0.8257844803678944 (44.7s)
+FedProx epsilon_1 replicate=3 round=3/3 epsilon_bound=0.9974232919911203 (40.9s)
+PROGRESS 45/54 | elapsed=80.3 min
+Centralized epsilon_3 replicate=3 round=1/3 epsilon_bound=2.2167994082745937 (41.6s)
+Centralized epsilon_3 replicate=3 round=2/3 epsilon_bound=2.642820011827072 (39.1s)
+Centralized epsilon_3 replicate=3 round=3/3 epsilon_bound=2.9962870317242856 (39.1s)
+PROGRESS 46/54 | elapsed=82.3 min
+FedAvg epsilon_3 replicate=3 round=1/3 epsilon_bound=1.9774297664801939 (38.9s)
+FedAvg epsilon_3 replicate=3 round=2/3 epsilon_bound=2.548130637029248 (42.3s)
+FedAvg epsilon_3 replicate=3 round=3/3 epsilon_bound=2.9968741947707587 (40.4s)
+PROGRESS 47/54 | elapsed=84.4 min
+FedProx epsilon_3 replicate=3 round=1/3 epsilon_bound=1.9774297664801939 (41.7s)
+FedProx epsilon_3 replicate=3 round=2/3 epsilon_bound=2.548130637029248 (42.8s)
+FedProx epsilon_3 replicate=3 round=3/3 epsilon_bound=2.9968741947707587 (44.5s)
+PROGRESS 48/54 | elapsed=86.6 min
+Centralized epsilon_5 replicate=3 round=1/3 epsilon_bound=3.7915449795892284 (38.7s)
+Centralized epsilon_5 replicate=3 round=2/3 epsilon_bound=4.460237205678437 (38.4s)
+Centralized epsilon_5 replicate=3 round=3/3 epsilon_bound=4.995377748767046 (42.0s)
+PROGRESS 49/54 | elapsed=88.6 min
+FedAvg epsilon_5 replicate=3 round=1/3 epsilon_bound=3.393684074486089 (41.4s)
+FedAvg epsilon_5 replicate=3 round=2/3 epsilon_bound=4.296767531151197 (41.7s)
+FedAvg epsilon_5 replicate=3 round=3/3 epsilon_bound=4.9998339396837626 (41.1s)
+PROGRESS 50/54 | elapsed=90.8 min
+FedProx epsilon_5 replicate=3 round=1/3 epsilon_bound=3.393684074486089 (45.6s)
+FedProx epsilon_5 replicate=3 round=2/3 epsilon_bound=4.296767531151197 (41.4s)
+FedProx epsilon_5 replicate=3 round=3/3 epsilon_bound=4.9998339396837626 (41.6s)
+PROGRESS 51/54 | elapsed=93.0 min
+Centralized epsilon_8 replicate=3 round=1/3 epsilon_bound=6.072571759603946 (37.0s)
+Centralized epsilon_8 replicate=3 round=2/3 epsilon_bound=7.15530101550086 (42.3s)
+Centralized epsilon_8 replicate=3 round=3/3 epsilon_bound=7.996772258687595 (42.2s)
+PROGRESS 52/54 | elapsed=95.0 min
+FedAvg epsilon_8 replicate=3 round=1/3 epsilon_bound=5.473353694889178 (44.1s)
+FedAvg epsilon_8 replicate=3 round=2/3 epsilon_bound=6.901337178700772 (41.1s)
+FedAvg epsilon_8 replicate=3 round=3/3 epsilon_bound=7.99664534407716 (40.1s)
+PROGRESS 53/54 | elapsed=97.2 min
+FedProx epsilon_8 replicate=3 round=1/3 epsilon_bound=5.473353694889178 (41.9s)
+FedProx epsilon_8 replicate=3 round=2/3 epsilon_bound=6.901337178700772 (43.3s)
+FedProx epsilon_8 replicate=3 round=3/3 epsilon_bound=7.99664534407716 (42.2s)
+PROGRESS 54/54 | elapsed=99.4 min
+COMPLETE: 54 matched runs. Results: C:\Users\84969\Documents\Codex\2026-10-12\referenced-chatgpt-conversation-this-is-an\outputs\ML5_Deadline_5h\results
