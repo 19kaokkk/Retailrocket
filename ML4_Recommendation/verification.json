@@ -1,0 +1,43 @@
+{
+  "model_parity_with_uploaded_ml3": true,
+  "source_sha256": "a68ee2b7c54469d27498020c54ae93e2784dff259b527d553ce4130d5c1b887d",
+  "data_alignment": {
+    "all_train_view_sequences_match_ml3": true,
+    "all_eval_view_sequences_match_ml3": true,
+    "all_candidate_indices_match_ml3": true,
+    "all_targets_match_source": true,
+    "training_stops_before_validation_view": true,
+    "test_history_stops_before_test_view": true
+  },
+  "unit_tests": 22,
+  "interrupted_resume": {
+    "Centralized": "bit-identical best weights and test ranks after interrupted-round resume",
+    "FedAvg": "bit-identical best weights and test ranks after interrupted-round resume",
+    "FedProx": "bit-identical best weights and test ranks after interrupted-round resume"
+  },
+  "figures": {
+    "model_comparison.png": {
+      "width": 1600,
+      "height": 640,
+      "pixel_std": 73.73775744972554
+    },
+    "training_curves.png": {
+      "width": 1600,
+      "height": 640,
+      "pixel_std": 38.76223913911799
+    },
+    "client_distribution.png": {
+      "width": 1600,
+      "height": 560,
+      "pixel_std": 82.80479349572158
+    }
+  },
+  "smoke_users": 96,
+  "smoke_eval_users": 88,
+  "full_training_executed": false,
+  "dp_implemented": false,
+  "notebook_code_cells_executed": 8,
+  "notebook_execution_method": "IPython InteractiveShell, all code cells executed in order",
+  "notebook_embedded_figures": 3,
+  "figures_visually_inspected": true
+}
